@@ -1,0 +1,36 @@
+{
+  "name": "ncaptcha-api",
+  "version": "1.1.2",
+  "description": "Module to integrate captcha for API only apps in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha && nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niteshpurohit/ncaptcha.git"
+  },
+  "keywords": [
+    "captcha",
+    "nodejs",
+    "recaptcha"
+  ],
+  "author": "Nitesh Purohit <nitesh.purohit.it@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niteshpurohit/ncaptcha/issues"
+  },
+  "homepage": "https://github.com/niteshpurohit/ncaptcha#readme",
+  "dependencies": {
+    "canvas": "2.6.1",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "lodash": ">=4.17.19",
+    "mocha": "8.0.1",
+    "nyc": "^15.1.0",
+    "sleep": "^6.3.0"
+  }
+}
